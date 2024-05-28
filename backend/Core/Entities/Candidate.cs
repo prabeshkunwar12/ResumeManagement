@@ -1,6 +1,6 @@
 ﻿namespace backend.Core.Entities
 {
-    public class Candidate
+    public class Candidate: BaseEntity
     {
         public string Firstname { get; set; }
         public string Lastname { get; set; }
